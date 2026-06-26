@@ -1,6 +1,6 @@
 ---
 name: idea-to-product
-description: Concise end-to-end skill for turning product ideas into an actionable plan and implementation path. Trigger: user describes a product/feature, asks for planning, or requests an implementation-ready plan.
+description: "Concise end-to-end skill for turning product ideas into an actionable plan and implementation path. Trigger: user describes a product/feature, asks for planning, or requests an implementation-ready plan."
 ---
 
 # Idea → Product (concise)
