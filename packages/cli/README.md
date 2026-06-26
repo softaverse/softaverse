@@ -1,11 +1,11 @@
-# @softaverse/cli
+# softaverse
 
 CLI tool to install and manage AI agent skills from the Softaverse registry.
 
 ## Installation
 
 ```bash
-npm install -g @softaverse/cli
+npm install -g softaverse
 ```
 
 ## Usage

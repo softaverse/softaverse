@@ -1,5 +1,5 @@
 {
-  "name": "@softaverse/cli",
+  "name": "softaverse",
   "version": "1.0.0",
   "description": "CLI tool to install and manage Claude Code skills from the Softaverse registry",
   "type": "module",
