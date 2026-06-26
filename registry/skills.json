@@ -1,6 +1,12 @@
 {
   "web-design": {
     "repo": "https://github.com/softaverse/softaverse",
-    "path": "skills/web-design"
+    "path": "skills/web-design",
+    "description": "Modern AI website design skill"
+  },
+  "extract-design-system": {
+    "repo": "https://github.com/softaverse/softaverse",
+    "path": "skills/extract-design-system",
+    "description": "Extract design tokens and components from a website URL or local HTML file, and generate an engineer-friendly design-system.html reference document"
   }
 }
