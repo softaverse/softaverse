@@ -62,6 +62,13 @@ npx softaverse targets
 npx softaverse add web-design --target claude-code codex
 ```
 
+## Skills
+
+| Skill | Use it for |
+| --- | --- |
+| [`web-design`](skills/web-design/SKILL.md) | Designing modern websites with stronger visual direction and layout decisions. |
+| [`extract-design-system`](skills/extract-design-system/SKILL.md) | Extracting design tokens and reusable components from a website URL or local HTML file. |
+
 ## Supported targets
 
 Skill-directory targets:
@@ -79,47 +86,6 @@ Rule-file targets:
 - Roo Code: `.roo/rules/<skill>.md`
 - Gemini CLI: `GEMINI.md`
 
-## Development
-
-Use these steps if you want to work on Softaverse locally.
-
-Install CLI dependencies:
-
-```bash
-npm install
-```
-
-Build the CLI:
-
-```bash
-npm run build
-```
-
-Publish a new version:
-
-```bash
-npm publish
-```
-
-The CLI loads skills from a local `skills/` directory when one is available. Otherwise, it falls back to the remote registry at `registry/skills.json`.
-
-## Adding a skill
-
-1. Create a new directory under `skills/<skill-name>/`.
-2. Add a `SKILL.md` file with the skill instructions and frontmatter.
-3. Add the skill to `registry/skills.json` with its repository URL and path.
-
-Example:
-
-```json
-{
-  "web-design": {
-    "repo": "https://github.com/softaverse/softaverse",
-    "path": "skills/web-design"
-  }
-}
-```
-
 ## License
 
-MIT
+[MIT](LICENSE)
