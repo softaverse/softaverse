@@ -86,7 +86,6 @@ Use these steps if you want to work on Softaverse locally.
 Install CLI dependencies:
 
 ```bash
-cd packages/cli
 npm install
 ```
 
@@ -94,6 +93,12 @@ Build the CLI:
 
 ```bash
 npm run build
+```
+
+Publish a new version:
+
+```bash
+npm publish
 ```
 
 The CLI loads skills from a local `skills/` directory when one is available. Otherwise, it falls back to the remote registry at `registry/skills.json`.
