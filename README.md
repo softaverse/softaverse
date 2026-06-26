@@ -1,6 +1,12 @@
 # Softaverse
 
-Softaverse helps you install reusable AI agent skills into the coding assistants and rule-file based tools you already use.
+[![npm version](https://img.shields.io/npm/v/softaverse.svg)](https://www.npmjs.com/package/softaverse)
+[![npm downloads](https://img.shields.io/npm/dm/softaverse.svg)](https://www.npmjs.com/package/softaverse)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Install AI agent skills into Claude Code, Codex, Cursor, Windsurf, GitHub Copilot, and more.
+
+![Softaverse CLI demo](docs/demo.gif)
 
 ## Quickstart
 
@@ -21,6 +27,17 @@ Install a skill into specific tools:
 ```bash
 npx softaverse add extract-design-system --target claude-code codex cursor
 ```
+
+## Features
+
+- Install skills into multiple AI coding tools.
+- Use interactive prompts or scriptable flags.
+- Support both skill-directory and rule-file based tools.
+- Run without global installation through `npx`.
+
+## Requirements
+
+- Node.js 18 or newer.
 
 ## Installation
 
@@ -85,20 +102,17 @@ npx softaverse add extract-design-system --target claude-code codex
 
 ## Supported targets
 
-Skill-directory targets:
-
-- Claude Code: `.claude/skills/<skill>/`
-- Codex: `.codex/skills/<skill>/`
-- Antigravity: `.agents/skills/<skill>/`
-
-Rule-file targets:
-
-- Cursor: `.cursor/rules/<skill>.mdc`
-- Windsurf: `.windsurf/rules/<skill>.md`
-- GitHub Copilot: `.github/copilot-instructions.md`
-- Cline: `.clinerules/<skill>.md`
-- Roo Code: `.roo/rules/<skill>.md`
-- Gemini CLI: `GEMINI.md`
+| Tool | Target key | Installed to |
+| --- | --- | --- |
+| Claude Code | `claude-code` | `.claude/skills/<skill>/` |
+| Codex | `codex` | `.codex/skills/<skill>/` |
+| Antigravity | `antigravity` | `.agents/skills/<skill>/` |
+| Cursor | `cursor` | `.cursor/rules/<skill>.mdc` |
+| Windsurf | `windsurf` | `.windsurf/rules/<skill>.md` |
+| GitHub Copilot | `github-copilot` | `.github/copilot-instructions.md` |
+| Cline | `cline` | `.clinerules/<skill>.md` |
+| Roo Code | `roo-code` | `.roo/rules/<skill>.md` |
+| Gemini CLI | `gemini-cli` | `GEMINI.md` |
 
 ## License
 
