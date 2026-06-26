@@ -55,7 +55,7 @@ program
 
     const source = path.join(tempDir, extracted!, skill.path);
 
-    const target = path.join(os.homedir(), ".claude", "skills", skillName);
+    const target = path.join(process.cwd(), ".claude", "skills", skillName);
 
     await fs.ensureDir(path.dirname(target));
 
@@ -79,7 +79,7 @@ program
   .command("remove <skill>")
   .description("Remove an installed skill")
   .action(async (skill) => {
-    const target = path.join(os.homedir(), ".claude", "skills", skill);
+    const target = path.join(process.cwd(), ".claude", "skills", skill);
 
     await fs.remove(target);
 
