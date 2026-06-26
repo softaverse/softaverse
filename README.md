@@ -99,6 +99,13 @@ npx softaverse add extract-design-system --target claude-code codex
 | --- | --- |
 | [`web-design`](skills/web-design/SKILL.md) | Designing modern websites with stronger visual direction and layout decisions. |
 | [`extract-design-system`](skills/extract-design-system/SKILL.md) | Extracting design tokens and reusable components from a website URL or local HTML file. |
+| [`code-reviewer`](skills/code-reviewer/SKILL.md) | Reviews recently written or modified code; focuses on changed files and detects bugs, security, and performance issues. |
+| [`explain-code`](skills/explain-code/SKILL.md) | Explains code with visual diagrams and everyday analogies; great for teaching and onboarding. |
+| [`obsidian-formatter`](skills/obsidian-formatter/SKILL.md) | Formats Markdown for correct display in Obsidian (tables, code blocks, headings, diagrams). |
+| [`draw-mermaid-diagrams-for-obsidian`](skills/draw-mermaid-diagrams-for-obsidian/SKILL.md) | Create Mermaid diagrams tailored for Obsidian notes. |
+| [`idea-to-product`](skills/idea-to-product/SKILL.md) | Turn product ideas into concise, actionable plans and implementation roadmaps. |
+| [`optimize-images`](skills/optimize-images/SKILL.md) | Convert and compress PNG/JPG to WebP and update source references; includes scripts and workflow. |
+| [`route-skill-references`](skills/route-skill-references/SKILL.md) | Refactor Skills into a lean SKILL.md with topic-specific reference files for progressive disclosure. |
 
 ## Supported targets
 

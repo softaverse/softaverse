@@ -1,0 +1,7 @@
+# Sequence Diagram
+
+```mermaid
+sequenceDiagram
+  Alice->>Bob: Hello Bob
+  Bob-->>Alice: Hi Alice
+```
