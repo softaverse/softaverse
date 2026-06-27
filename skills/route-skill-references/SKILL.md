@@ -1,6 +1,6 @@
 ---
-name: route-skill-references
-description: Refactors existing Skills into a lean SKILL.md plus topic-specific reference files for progressive disclosure. Use when simplifying a bloated Skill, splitting examples or lookup material into references, adding a reference routing map, or reorganizing Skill content so only relevant files are loaded on demand.
+description: Refactors existing Skills into a lean SKILL.md plus topic-specific reference files for progressive disclosure.
+when_to_use: Use when simplifying a bloated Skill, splitting examples or lookup material into references, adding a reference routing map, or reorganizing Skill content so only relevant files are loaded on demand.
 ---
 
 # Route Skill References
